@@ -1,6 +1,6 @@
-# Repository for *james.pole.net.nz*
+# Repository for *cellsites.nz*
 
-This is the repository for *[james.pole.net.nz](https://james.pole.net.nz/)*.
+This is the repository for *[cellsites.nz](https://cellsites.nz/)*.
 
 ## License
 
