@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frequency Usage - Cell Sites in Aotearoa</title>
+        <link rel="stylesheet" href="simple-v1.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Frequencies</h1>
+            <nav>
+                <a href="index.html">Cell Sites in Aotearoa</a>
+            </nav>
+        </header>
+        <main>
+            <p>This page outlines mobile phone frequency usage by mobile network operators in Aotearoa New Zealand as of August 2025. Data is based on actual observations in the Auckland region.</p>
+            <article id="band-summary">
+                <h2>Band Summary</h2>
+                <p>The following table is a summary of the bands used by each mobile network.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tech<span style="display: none;">nology</span></th>
+                            <th>Freq<span style="display: none;">uency</span></th>
+                            <th>Band</th>
+                            <th class="spark">Spark</th>
+                            <th class="vodafone">One</th>
+                            <th class="twodegrees">2degrees</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2G<br>(GSM)</td>
+                            <td>900 <small>MHz</small></td>
+                            <td>8</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="recommended">Closing 2025</td>
+                            <td class="not-in-use">Not In Use</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">3G<br>(UMTS)</td>
+                            <td>850 <small>MHz</small></td>
+                            <td>5</td>
+                            <td class="recommended">Closing 2026</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="not-in-use">Not In Use</td>
+                        </tr>
+                        <tr>
+                            <td>900 <small>MHz</small></td>
+                            <td>8</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="recommended">Closing 2025</td>
+                            <td class="recommended">Closing 2025</td>
+                        </tr>
+                        <tr>
+                            <td>2100 <small>MHz</small></td>
+                            <td>1</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="recommended">Closing 2025</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="6">4G<br>(LTE)</td>
+                            <td>700 <small>MHz</small></td>
+                            <td>28</td>
+                            <td class="essential">Essential</td>
+                            <td class="essential">Essential</td>
+                            <td class="essential">Essential</td>
+                        </tr>
+                        <tr>
+                            <td>900 <small>MHz</small></td>
+                            <td>8</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="essential">Essential</td>
+                            <td class="essential">Essential</td>
+                        </tr>
+                        <tr>
+                            <td>1800 <small>MHz</small></td>
+                            <td>3</td>
+                            <td class="essential">Essential</td>
+                            <td class="essential">Essential</td>
+                            <td class="essential">Essential</td>
+                        </tr>
+                        <tr>
+                            <td>2100 <small>MHz</small></td>
+                            <td>1</td>
+                            <td class="essential">Essential</td>
+                            <td class="recommended">Recommended</td>
+                            <td class="recommended">Recommended</td>
+                        </tr>
+                        <tr>
+                            <td>2300 <small>MHz</small></td>
+                            <td>40</td>
+                            <td class="recommended">Recommended</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="not-in-use">Not In Use</td>
+                        </tr>
+                        <tr>
+                            <td>2600 <small>MHz</small></td>
+                            <td>7</td>
+                            <td class="recommended">Recommended</td>
+                            <td class="recommended">Recommended</td>
+                            <td class="not-in-use">Not In Use</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="6">5G<br>(NR)</td>
+                            <td>850 <small>MHz</small></td>
+                            <td>n5</td>
+                            <td class="recommended">Recommended</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="not-in-use">Not In Use</td>
+                        </tr>
+                        <tr>
+                            <td>900 <small>MHz</small></td>
+                            <td>n8</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="future">Future</td>
+                            <td class="future">Future</td>
+                        </tr>
+                        <tr>
+                            <td>2100 <small>MHz</small></td>
+                            <td>n1</td>
+                            <td class="future">Future</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="future">Future</td>
+                        </tr>
+                        <tr>
+                            <td>2300 <small>MHz</small></td>
+                            <td>n40</td>
+                            <td class="future">Future</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="not-in-use">Not In Use</td>
+                        </tr>
+                        <tr>
+                            <td>2600 <small>MHz</small></td>
+                            <td>n7</td>
+                            <td class="not-in-use">Not In Use</td>
+                            <td class="future">Future</td>
+                            <td class="not-in-use">Not In Use</td>
+                        </tr>
+                        <tr>
+                            <td>3500 <small>MHz</small></td>
+                            <td>n78</td>
+                            <td class="recommended">Recommended</td>
+                            <td class="recommended">Recommended</td>
+                            <td class="recommended">Recommended</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul>
+                    <li><b>Essential:</b> These bands are essential to access as much 4G LTE coverage as possible in the long-term.</li>
+                    <li><b>Recommended:</b> These bands are either 3G UMTS bands planned for removal and/or 4G LTE bands currently used to provide additional capacity in high demand areas. The 3G UMTS bands are necessary at a decreasing number of locations before switch off in 2025 (One NZ and 2degrees) and 2026 (Spark).</li>
+                    <li><b>Future:</b> These bands could potentinally be used in the future. Based on the author's speculation.</li>
+                    <li><b>Not In Use:</b> These bands is, as far as the author is aware, not in use and the author has no expectation of this band being used in the foreseeable future.</li>
+                </ul>
+            </article>
+            <section>
+                <h3>Band 28 (700 MHz)</h3>
+                <p>Band 28 is only used for 4G LTE services. Spark operates on Band 28 from most sites. One operates on Band 28 from many sites. 2degrees has less Band 28 usage because some of their older sites haven't had antennas upgraded to support Band 28.</p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th class="spark">Spark</th>
+                        <th class="vodafone">One</th>
+                        <th class="twodegrees">2degrees</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>LTE</td>
+                        <td>LTE</td>
+                        <td>LTE</td>
+                    </tr>
+                    <tr>
+                        <th>DL ARFCN</th>
+                        <td>9310</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>9485</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>9610</td><!-- Last seen: 27 Aug 2023 -->
+                    </tr>
+                    <tr>
+                        <th>UL ARFCN</th>
+                        <td>27310</td>
+                        <td>27485</td>
+                        <td>27610</td>
+                    </tr>
+                    <tr>
+                        <th>DL Frequency</th>
+                        <td>768 MHz</td>
+                        <td>785.5 MHz</td>
+                        <td>798 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>UL Frequency</th>
+                        <td>713 MHz</td>
+                        <td>730.5 MHz</td>
+                        <td>743 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth</th>
+                        <td>20 MHz</td>
+                        <td>15 MHz</td>
+                        <td>10 MHz</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h3>Band 5 (850 MHz)</h3>
+                <p>Band 5 is used for 3G UMTS and 5G NR services. This band is exclusively used by Spark. This is the only band Spark uses for 3G UMTS services. Spark operates 3G UMTS services from most sites and is starting to deploy 5G NR services.</p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th colspan="3" class="spark">Spark</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>NR</td>
+                        <td>UMTS</td>
+                    </tr>
+                    <tr>
+                        <th>DL ARFCN</th>
+                        <td>174970</td>
+                        <td>1062</td>
+                    </tr>
+                    <tr>
+                        <th>UL ARFCN</th>
+                        <td>165970</td>
+                        <td>837</td>
+                    </tr>
+                    <tr>
+                        <th>DL Frequency</th>
+                        <td>874.85 MHz</td>
+                        <td>882.5 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>UL Frequency</th>
+                        <td>829.85 MHz</td>
+                        <td>837.5 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth</th>
+                        <td>10 MHz</td>
+                        <td>5 MHz</td>
+                    </tr>
+                </table>
+                <p><b>Note:</b> The above table shows the situation in areas where Spark has started to deploy 5G NR.</p>
+            </section>
+            <section>
+                <h3>Band 8 (900 MHz)</h3>
+                <p>Band 8 is used for 2G GSM, 3G UMTS and 4G LTE services. This band has the distinction of being the only band with three different radio technologies in use.</p>
+                <p>One operates on Band 8 for 2G GSM and 3G UMTS services from most sites. They have deployed 4G LTE services in some areas&mdash;being the only network operator to operate three different radio technologies in the same band.</p>
+                <p>2degrees operates on Band 8 for 3G UMTS services from most sites as well as 4G LTE services from many sites.</p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th colspan="2" class="twodegrees">2degrees</th>
+                        <th colspan="3" class="vodafone">One</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>UMTS</td>
+                        <td>LTE</td>
+                        <td>GSM</td>
+                        <td>LTE</td>
+                        <td>UMTS</td>
+                    </tr>
+                    <tr>
+                        <th>DL ARFCN</th>
+                        <td>2988</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>3622</td>
+                        <td>50&ndash;70</td>
+                        <!-- 53 - Last seen: 27 Aug 2023 -->
+                        <td>3722</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>3086</td><!-- Last seen: 27 Aug 2023 -->
+                    </tr>
+                    <tr>
+                        <th>UL ARFCN</th>
+                        <td>2763</td>
+                        <td>21622</td>
+                        <td>50&ndash;70</td>
+                        <td>21722</td>
+                        <td>2861</td>
+                    </tr>
+                    <tr>
+                        <th>DL Frequency</th>
+                        <td>937.6 MHz</td>
+                        <td>942.2 MHz</td>
+                        <td>945&ndash;949 MHz</td>
+                        <td>952.2 MHz</td>
+                        <td>957.2 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>UL Frequency</th>
+                        <td>892.6 MHz</td>
+                        <td>897.2 MHz</td>
+                        <td>900&ndash;904 MHz</td>
+                        <td>907.2 MHz</td>
+                        <td>912.2 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth</th>
+                        <td>5 MHz</td>
+                        <td>5 MHz</td>
+                        <td>n/a</td>
+                        <td>5 MHz</td>
+                        <td>5 MHz</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h3>Band 3 (1800 MHz)</h3>
+                <p>Band 3 is only used for 4G LTE services. It had previously been used by One and 2degrees for 2G GSM services. 2degrees, Spark and One all operate on Band 3 from most urban sites. There are also limited deployments in rural areas&mdash;typically to provide additional capacity.</p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th class="twodegrees">2degrees</th>
+                        <th class="unused">Unused</th>
+                        <th class="spark">Spark</th>
+                        <th class="vodafone">One</th>
+                        <th class="unused">Unused</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>LTE</td>
+                        <td>n/a</td>
+                        <td>LTE</td>
+                        <td>LTE</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>DL ARFCN</th>
+                        <td>1300</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>n/a</td>
+                        <td>1600</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>1800</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>UL ARFCN</th>
+                        <td>19300</td>
+                        <td>n/a</td>
+                        <td>19600</td>
+                        <td>19800</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>DL Frequency</th>
+                        <td>1815 MHz</td>
+                        <td>n/a</td>
+                        <td>1845 MHz</td>
+                        <td>1865 MHz</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>UL Frequency</th>
+                        <td>1720 MHz</td>
+                        <td>n/a</td>
+                        <td>1750 MHz</td>
+                        <td>1770 MHz</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth</th>
+                        <td>20 MHz</td>
+                        <td>10 MHz</td>
+                        <td>20 MHz</td>
+                        <td>20 MHz</td>
+                        <td>5 MHz</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h3>Band 1 (2100 MHz)</h3>
+                <p>Band 1 is used for 3G UMTS and 4G LTE services.<p>
+                <p>2degrees operate 3G UMTS services on Band 1 from most urban sites. There are also limited deployments in rural areas—typically to provide additional capacity. One and Spark no longer operate any 3G UMTS services in Band 1.</p>
+                <p>2degrees, Spark and One operate 4G LTE services on Band 1 from selected sites&mdash;typically to provide additional capacity.</p>
+                <p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th class="vodafone">One</th>
+                        <th class="spark">Spark</th>
+                        <th class="twodegrees" colspan="2">2degrees</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>LTE</td>
+                        <td>LTE</td>
+                        <td>UMTS</td>
+                        <td>LTE</td>
+                    </tr>
+                    <tr>
+                        <th>DL ARFCN</th>
+                        <td>100</td>
+                        <td>275</td>
+                        <td>10738</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <th>UL ARFCN</th>
+                        <td>18100</td>
+                        <td>18275</td>
+                        <td>9788</td>
+                        <td>18500</td>
+                    </tr>
+                    <tr>
+                        <th>DL Frequency (MHz)</th>
+                        <td>2120</td>
+                        <td>2137.5</td>
+                        <td>2147.6</td>
+                        <td>2160</td>
+                    </tr>
+                    <tr>
+                        <th>UL Frequency (MHz)</th>
+                        <td>1930</td>
+                        <td>1947.5</td>
+                        <td>1957.6</td>
+                        <td>1970</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth (MHz)</th>
+                        <td>20</td>
+                        <td>15</td>
+                        <td>5</td>
+                        <td>20(*)</td>
+                    </tr>
+                </table>
+                <p><b>Note(*):</b> For some reason some 2degrees L2100 sites operate with 10 MHz bandwidth, rather than 20 MHz.</p>
+            </section>
+            <section>
+                <h3>Band 40 (2300 MHz)</h3>
+                <p>Band 40 is only used for 4G LTE services. This band has the distinction of being the only band with <a href="https://en.wikipedia.org/wiki/LTE_(telecommunication)#LTE-TDD_and_LTE-FDD">LTE-TDD</a> in use. This band is exclusively used by Spark. Spark operates on Band 40 from selected sites around the country&mdash;especially in areas where there is high demand for their Wireless Broadband service.</p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th class="unused">Unused</th>
+                        <th class="spark" colspan="3">Spark</th>
+                        <th class="unused">Unused</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>n/a</td>
+                        <td>LTE</td>
+                        <td>LTE</td>
+                        <td>LTE</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>ARFCN</th>
+                        <td>n/a</td>
+                        <td>38854</td>
+                        <td>39052</td>
+                        <td>39250</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>Frequency</th>
+                        <td>n/a</td>
+                        <td>2320.4 MHz</td>
+                        <td>2340.2 MHz</td>
+                        <td>2360 MHz</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth</th>
+                        <td>10 MHz</td>
+                        <td>20 MHz</td>
+                        <td>20 MHz</td>
+                        <td>20 MHz</td>
+                        <td>30 MHz</td>
+                    </tr>
+                </table>
+                <p><small><b>Note:</b> I have received reports of Spark operating 50 MHz of NR 5G at ARFCN 464910 (2324.55 MHz). As Spark has rights to 70 MHz in this band, this suggests their plan is to allocate 50 MHz to NR and the remaining 20 MHz to LTE.</small></p>
+            </section>
+            <section>
+                <h3>Band 7 (2600 MHz)</h3>
+                <p>Band 7 is only used for 4G LTE services. Spark and One operate 4G LTE services on Band 7 from selected sites—typically to provide additional capacity. One partners with Starlink to provide direct to cell services.</p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th class="vodafone">One<br><small>(Starlink)</small></th>
+                        <th class="unused">Unused</th>
+                        <th class="spark">Spark</th>
+                        <th class="vodafone">One</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>LTE</td>
+                        <td>Unused</td>
+                        <td>LTE</td>
+                        <td>LTE</td>
+                    </tr>
+                    <tr>
+                        <th>DL ARFCN</th>
+                        <td>TBC</td>
+                        <td>n/a</td>
+                        <td>3200</td><!-- Last seen: 27 Aug 2023 -->
+                        <td>3375</td><!-- Last seen: 27 Aug 2023 -->
+                    </tr>
+                    <tr>
+                        <th>UL ARFCN</th>
+                        <td>TBC</td>
+                        <td>n/a</td>
+                        <td>21200</td>
+                        <td>21375</td>
+                    </tr>
+                    <tr>
+                        <th>DL Frequency</th>
+                        <td>~2627.5MHz</td>
+                        <td>n/a</td>
+                        <td>2665 MHz</td>
+                        <td>2682.5 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>UL Frequency</th>
+                        <td>~2507.5 MHz</td>
+                        <td>n/a</td>
+                        <td>2545 MHz</td>
+                        <td>2562.5 MHz</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth</th>
+                        <td>15 MHz</td>
+                        <td>20 MHz</td>
+                        <td>20 MHz</td>
+                        <td>15 MHz</td>
+                    </tr>
+                </table>
+                <p><small><b>Note 1:</b> The Starlink info above has not personally been verified by the author.</small></p>
+                <p><small><b>Note 2:</b> There are reports of One NZ deploying 5G NR at ARFCN 528970. This covers the spectrum currently labelled 'Unused' above.</small></p>
+            </section>
+            <section>
+                <h3>Band 78 (3500 MHz)</h3>
+                <p>Band 78 is only used for 5G NR services. 2degrees, Spark and One operate on Band 78 from selected sites.</p>
+                <table>
+                    <tr>
+                        <th>Network</th>
+                        <th class="unused">Unused</th>
+                        <th class="vodafone">One</th>
+                        <th class="twodegrees">2degrees</th>
+                        <th class="spark">Spark</th>
+                        <th class="unused">Unused</th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <td>Unused</td>
+                        <td>NR</td>
+                        <td>NR</td>
+                        <td>NR</td>
+                        <td>Unused</td>
+                    </tr>
+                    <tr>
+                        <th>ARFCN</th>
+                        <td>n/a</td>
+                        <td>633312</td>
+                        <td>638688</td>
+                        <td>643968</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>Frequency (MHz)</th>
+                        <td>n/a</td>
+                        <td>3499.68</td>
+                        <td>3580.32</td>
+                        <td>3659.52</td>
+                        <td>n/a</td>
+                    </tr>
+                    <tr>
+                        <th>Bandwidth</th>
+                        <td>160 MHz</td>
+                        <td>80 MHz</td>
+                        <td>80 MHz</td>
+                        <td>80 MHz</td>
+                        <td>100 MHz</td>
+                    </tr>
+                </table>
+                <p><small><b>Note:</b> Spark has upgraded their spectrum to 100 MHz.</p>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2025 <a href="mailto:james@pole.net.nz">James Anderson-Pole</a></p>
+        </footer>
+    </body>
+</html>

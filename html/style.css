@@ -1,0 +1,8 @@
+.twodegrees {background: #ccccff;}
+.spark {background: #ffccff;}
+.unused {background: #cccccc;}
+.vodafone {background: #ff9999;}
+.essential {font-weight: bold; background: #00ff00;}
+.recommended {background: #ffff00;}
+.not-in-use {background: #cccccc; color: #999999;}
+.future {background: #ccccff; color: #999999; font-style: italic;}
